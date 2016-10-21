@@ -1,0 +1,13 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ru.kalmychkov</groupId>
+	<artifactId>part-001-basic</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0</version>
+	
+	<modules>
+		<module>task-1-hello-world</module>
+		<module>task-2-3-calculator</module>
+		<!--<module>task-3-1-triangle</module>-->
+	</modules>
+</project>
