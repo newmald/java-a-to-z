@@ -8,6 +8,6 @@
 	<modules>
 		<module>task-1-hello-world</module>
 		<module>task-2-3-calculator</module>
-		<!--<module>task-3-1-triangle</module>-->
+		<module>task-3-1-triangle</module>
 	</modules>
 </project>
