@@ -4,17 +4,6 @@ public class Triangle {
 	public Point a;
 	public Point b;
 	public Point c;
-
-	 public static void main(String[] args) {
-	 	Point a = new Point(0D, 0D);
-	 	Point b = new Point(1D, 2D);
-	 	Point c = new Point(3D, 4D);
-	 	Triangle triangle = new Triangle(a,b,c);
-	 	double s = triangle.area();
-		double maxSide = triangle.max();
-	 	System.out.println("The area of a triangle: " + s);
-	 	System.out.println("The maximum distance: " + maxSide);
-	 }
 	
 	public Triangle(Point a, Point b, Point c) {
 		this.a = a;
