@@ -3,6 +3,7 @@ package ru.kalmychkov;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
+import static org.hamcrest.number.IsCloseTo.*;
 
 public class TriangleTest {
 	@Test
@@ -12,7 +13,7 @@ public class TriangleTest {
 		Point c = new Point(3D, 4D);
 		Triangle triangle = new Triangle(a,b,c);
 		double s = triangle.area();
-		assertThat(s, is(0.9999999999999988));
+		assertThat(s, closeTo(1D, 0.0001));
 	}
 
 	@Test
