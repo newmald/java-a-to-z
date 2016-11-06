@@ -10,6 +10,5 @@ public class SquareTest {
 		Square square = new Square(1,2,3);
 		float result = square.calculate(2);
 		assertThat(result, is(11.0F));
-		System.out.println(result);
 	}
 }
