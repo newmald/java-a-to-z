@@ -24,9 +24,9 @@ public class RotationArrayTest {
         RotationArray rotationArray = new RotationArray();
         final int[][] resultArray = rotationArray.rotation(values);
         final int[][] expectArray = {
-                {7, 4, 1},
-                {8, 5, 2},
-                {9, 6, 3}
+                {3, 6, 9},
+                {2, 5, 8},
+                {1, 4, 7}
         };
         Assert.assertThat(resultArray, is(expectArray));
     }
