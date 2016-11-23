@@ -18,5 +18,6 @@
 		<module>task-5-0-rotate-array</module>
 		<module>task-5-1-bubblesort</module>
 		<module>task-5-2-rotation</module>
+		<module>task-5-3-remove-duplicate</module>
 	</modules>
 </project>
