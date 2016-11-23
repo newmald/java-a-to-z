@@ -21,6 +21,5 @@ public class RemoveDuplicateTest {
         String[] result = removeDuplicate.removeCopy(name);
         String[] expected = {"Alex", "Max", "Peter", "Mike", "John"};
         Assert.assertThat(result, is(expected));
-        System.out.println(Arrays.toString(result));
     }
 }
