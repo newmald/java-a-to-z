@@ -2,7 +2,6 @@ package ru.kalmychkov;
 
 import org.junit.Assert;
 import org.junit.Test;
-import java.util.Arrays;
 import static org.hamcrest.CoreMatchers.is;
 /**
  * Тест удаления дубликатов массива.
