@@ -19,5 +19,6 @@
 		<module>task-5-1-bubblesort</module>
 		<module>task-5-2-rotation</module>
 		<module>task-5-3-remove-duplicate</module>
+		<module>task-6-1-substring</module>
 	</modules>
 </project>
