@@ -20,5 +20,6 @@
 		<module>task-5-2-rotation</module>
 		<module>task-5-3-remove-duplicate</module>
 		<module>task-6-1-substring</module>
+		<module>task-6-2-sorting-arrays</module>
 	</modules>
 </project>
