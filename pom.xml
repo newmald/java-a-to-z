@@ -13,7 +13,7 @@
     </properties>
 
     <modules>
-        <module>chapter_001</module>
+        <module>part-001-basic</module>
     </modules>
 
     <dependencies>
